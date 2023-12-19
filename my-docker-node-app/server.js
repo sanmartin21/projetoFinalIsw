@@ -26,8 +26,8 @@ app.post('/save', async (req, res) => {
 
   try {
     connection = await oracledb.getConnection({
-      user: "ADMIN",
-      password: "EUsouo21####",
+      user: "MEU USUÁRIO",
+      password: "MINHA SENHA",
       connectString: "(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g1a8cf8334200df_myclouddb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))"
     });
 
